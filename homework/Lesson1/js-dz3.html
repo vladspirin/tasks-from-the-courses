@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--  Написать программу – «Конвертер валют».
+ Программа хранит в переменных курс доллара и евро.
+ Пользователь вводит сумму в гривнах и получает информацию о том,
+ сколько эта сумма составляет в долларах и евро.
+ Результат выводите на страницу. -->
+    
+    <script>
+        var dol = 27.15;
+        var eur = 32.17;
+        var hrn = Number(prompt("Укажите сумму в гривнах: ", 1));
+        var x = hrn / dol;
+        var y = hrn / eur;
+        alert("Указанная сумма равна: " + x + " USD" + " или " + y + " EUR");
+        
+    </script>
+</body>
+</html>
