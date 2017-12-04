@@ -17,10 +17,10 @@
         "use strict";
         var dol = 27.15;
         var eur = 32.17;
-        var hrn = Number(prompt("Укажите сумму в гривнах: ", 1));
-        var x = hrn / dol;
-        var y = hrn / eur;
-        alert("Указанная сумма равна: " + x + " USD" + " или " + y + " EUR");
+        var hrn = Number(prompt("Укажите сумму в гривнах: ", ""));
+        var x = (hrn / dol); // Number
+        var y = (hrn / eur).toFixed(2); // String
+ alert("Указанная сумма равна: " + (Math.round(x * 100) / 100) + " USD" + " или " + y + " EUR");
     </script>
 </body>
 </html>
