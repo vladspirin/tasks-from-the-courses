@@ -3,17 +3,16 @@
 При вкладе на 3 месяца процентная ставка = 13 % годовых, на 6 месяцев – 16 % на 1 год – 18 %.
 Учесть, что с начисленных процентов изымается налог 20 % */
 
-var deposit = +prompt("Введите сумму депозита: ", 100);
-var month = +prompt("Введите срок вклада в месяцах (3, 6 или 12): ", 1);
-if (month === 3) {
-  console.log(deposit += deposit * 0.13);
-} else if (month === 6) {
-  console.log(deposit += deposit * 0.16);
-} else if (month === 12) {
-  console.log(deposit += deposit * 0.18);
-} else if (month === 0) {
-  
-} else {
-  console.log("error");
-}
+var dep = +prompt("Введите сумму депозита: ", 100);
+var mon = +prompt("Введите срок вклада в месяцах (3, 6 или 12): ", 1);
+if (mon === 3) {
+  // console.log(dep += dep * 0.13);
+  dep += dep * 0.13;
+} else if (mon === 6) {
+  // console.log(dep += dep * 0.16);
+  dep += dep * 0.16;
+} else if (mon === 12) {
+  // console.log(dep += dep * 0.18);
+  dep += dep * 0.18;
+} 
 
