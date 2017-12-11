@@ -1,2 +1,8 @@
 "use strict";
-var str = prompt("Enter some text:", "");
+var str = prompt("Введите любой текст в котором будут буквы 'а':", "У деда в сарае был барабан");
+for (var i = 0; i <= str.length; i++ ) {
+    if (str[i] == "а") {
+        // ?????
+        // console.log("В тексте: " + ???? + " букв 'а'");
+    } 
+}
