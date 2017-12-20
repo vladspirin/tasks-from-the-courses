@@ -20,3 +20,8 @@ function calDep(datePar, moneyPar, obPar) {
   }
 };
 calDep(date, money, ob);
+
+// Пометки:
+// оптимальный - не оптимальный код
+// оптимальность - соответсвие
+// вес программы
