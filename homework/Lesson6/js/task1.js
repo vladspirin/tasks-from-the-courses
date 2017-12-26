@@ -4,17 +4,33 @@ var collaborator = {
   firstName: "Ivan",
   lastName: "Ivanov",
   patronym: "Ivanovich",
-  position: "director",
+  position: "Director",
+  company: "Dream Inc.",
   wageRate: 3000,
-  workExperience: 4
+  workExperience: 4,
+  // Создаем функцию вычисления зароботной платы
+  calcWage: function() {
+   // сделать метод
+  },
+  // Создаем функцию которая выводит информацию
+  outputInfo: function() {
+
+  }
 };
-// Создаем функцию вычисления зароботной платы
-function calcWage() {
-  
+
+// --------тут пишу всякий бред для понимания----------------------
+function calcWage(tax, time, surcharge) {
+  for (var key in collaborator) {
+    collaborator[key]
+  }
 }
 calcWage();
-// Создаем функцию которая выводит информацию
-function outputInfo() {
-  
+
+function outputInfo(this) {
+  if(){
+    return alert("Справка: " + this.lastName + " " + this.firstName + " " + this.patronym + ", " + " является сотрудником " + this.company  );
+ } else {
+    return alert("Справка: " + this.lastName + " " + this.firstName + " " + this.patronym + ", " + " не является сотрудником " + this.company);
+ }
 }
-outputInfo();
+// -----------------------------------------------------------------
