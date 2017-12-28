@@ -16,11 +16,24 @@ changeColorEl();
 function getParEl() {
   var btn = document.querySelector(".btn-success");
   var par = btn.closest(".navbar-form");
-  console.log(par);
+  // console.log(par);
 }
 getParEl();
 // Скрипт добавляющий строку меню с пунктами «Главная», «Деятельность» «Контакты».
 function addMenuItems() {
-  
+  var listArr = [{ clause: "Главная" }, { clause: "Деятельность" }, { clause: "Контакты" }];
+  var nav = document.getElementById("navbar");
+  var ul = document.createElement("ul");
+  ul.classList.add("nav");
+  ul.classList.add("navbar-nav");
+  ul.classList.add("navbar-collapse");
+  listArr.forEach(function (item){
+    var li = document.createElement("li");
+    var a = document.createElement("a"); 
+    a.textContent = item["clause"];
+    li.appendChild(a);
+    ul.appendChild(li);
+  });
+  nav.appendChild(ul);
 }
 addMenuItems();
