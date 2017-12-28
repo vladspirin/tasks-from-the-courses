@@ -5,7 +5,7 @@ function deleteHeadings() {
 }
 deleteHeadings();
 // Создаем массив объектов
-var arr = [{},{},{},{},{},{}];
+var arr = [{ hd: "Heading" }, { hd: "Heading"}, { hd: "Heading"}, { hd: "Heading" }, { hd: "Heading" }, { hd: "Heading"}];
 // Создаем новые зоголовки
 function createHeadins() {
   
