@@ -5,12 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Classroom. Lesson 8</title>
+  <style>
+    #div1 {
+      background-color: grey;
+    }
+    #span1 {
+      background-color: yellow;
+      position: absolute;
+      left: 0px;
+      top: -10px;
+      
+    }
+    .container {
+      position: relative;
+    }
+    .hidden {
+      display: none;
+    }
+    .show {
+      display: block;
+    }
+    #block1 {
+      padding: 20px;
+      background-color: red;
+    }
+        #block2 {
+      padding: 20px;
+      background-color: blue;
+    }
+        #block3 {
+      padding: 20px;
+      background-color: green;
+    }
+  </style>
 </head>
 <body>
+  <div id="div1" onclick="console.log('text')" style="color:red" data-title="myDiv">lorem ispumDeserunt sint non deserunt sit minim irure pariatur sint reprehenderit et. Velit laboris adipisicing fugiat duis ullamco consequat minim eu irure et dolore enim laboris. Cupidatat elit ad nulla ad proident consequat exercitation in amet. Elit in cupidatat fugiat est nostrud incididunt est laboris sit officia labore nulla in esse. Non ex est non eiusmod. Aute ad veniam ipsum et et sint.</div>
 
-  <script src="js/script1.js"></script>
+
+  <div class="container">
+    <p id="p1" data-tooltip="span1">lorem ispumDeserunt sint non deserunt sit minim irure pariatur sint reprehenderit et. Velit laboris adipisicing fugiat duis
+    ullamco consequat minim eu irure et dolore enim laboris. Cupidatat elit ad nulla ad proident consequat exercitation in
+    amet. Elit in cupidatat fugiat est nostrud incididunt est laboris sit officia labore nulla in esse. Non ex est non eiusmod.
+    Aute ad veniam ipsum et et sint.</p>
+
+    <div>jhfjkdkhfkdj</div>
+
+    <span id="span1" class="hidden">lorem ispumDeserunt sint non deserunt sit minim irure pariatur sint reprehenderit et. Velit laboris adipisicing fugiat duis
+    ullamco consequat minim eu irure et dolore enim laboris. Cupidatat elit ad nulla ad proident consequat exercitation in amet.
+    Elit in cupidatat fugiat est nostrud incididunt est laboris sit officia labore nulla in esse. Non ex est non eiusmod. Aute
+    ad veniam ipsum et et sint.</span>
+  </div>
+
+  <div id="block1">
+    1
+    <div id="block2">
+      2
+      <div id="block3">
+        3
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <script src="js/script1.js"></script> -->
   <!-- <script src="js/script2.js"></script> -->
-  <!-- <script src="js/script3.js"></script> -->
+  <script src="js/script3.js"></script>
   <!-- <script src="js/script4.js"></script> -->
 </body>
 </html>
