@@ -1,6 +1,6 @@
 "use strict";
 // Функция управления кнопкой на экране
-function clickOnButton() {
+function btnClick() {
   var btn = document.getElementById("btn");
   btn.addEventListener("click", function(event) {
     event.target;
@@ -8,13 +8,15 @@ function clickOnButton() {
 
   // console.log();
 }
-clickOnButton();
+btnClick();
 
 // Функция управления модальным окном
 function showModalWindow() {
   var mod = document.getElementById("modWind");
   var x = document.querySelector(".close");
-
+  x.addEventListener("click", function() {
+  mod.classList.toggle("show"); 
+  });
   // console.log();
   // console.log();
 }
