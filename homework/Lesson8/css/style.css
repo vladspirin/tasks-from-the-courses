@@ -30,9 +30,9 @@
 
 #modWind {
   position: absolute;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  box-shadow: 2px 3px 4px grey;
+  border: 1px solid #b3a5a517;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(148, 137, 137);
   text-align: right;
   top: 70px;
   }

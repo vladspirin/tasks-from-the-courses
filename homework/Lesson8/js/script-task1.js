@@ -3,10 +3,9 @@
 function btnClick() {
   var btn = document.getElementById("btn");
   btn.addEventListener("click", function(event) {
-    event.target;
+    var trg = event.target; // .hidden = true - так спрятать кнопку вообще
+    console.log(trg);
   });
-
-  // console.log();
 }
 btnClick();
 
