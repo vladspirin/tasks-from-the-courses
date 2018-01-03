@@ -19,6 +19,7 @@
       border: 1px solid rgb(48, 101, 172);
       border-radius: 5px;
       box-shadow: 1px 2px 2px grey;
+      cursor: pointer;
     }
     .button {
       color: blanchedalmond;
@@ -54,4 +55,5 @@
     font-weight: bold;
     text-decoration: none;
     text-align: inherit;
-  }
+    cursor: pointer;
+}
