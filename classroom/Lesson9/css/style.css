@@ -1,0 +1,48 @@
+.preloader {
+    display: block;
+    position: fixed;
+    z-index: 100;   /* побольше */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000 url(https://hello-site.ru/main/images/preloads/oval.svg) center center no-repeat;
+    
+    opacity: 1;
+    transition: 2s all;
+}
+.fade {
+    opacity: 0 !important;
+}
+.wrapper {
+    width: 940px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#nav {
+    padding: 20px 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.menu li a {
+    display: block;
+    padding: 10px 30px;
+}
+.menu li {
+    background-color: #ddd;
+}
+.menu-item {
+    margin-right: 2px;
+    position: relative;
+}
+.menu {
+    display: flex;
+}
+.submenu {
+    position: absolute;
+    display: none;
+}
