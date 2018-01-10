@@ -7,9 +7,8 @@
     right: 0;
     bottom: 0;
     background: #000 url(https://hello-site.ru/main/images/preloads/oval.svg) center center no-repeat;
-    
     opacity: 1;
-    transition: 2s all;
+    transition: 1s opacity;
 }
 .fade {
     opacity: 0 !important;
@@ -46,3 +45,10 @@ a {
     position: absolute;
     display: none;
 }
+.submenu-item {
+    margin-top: 1px;
+}
+/* .submenu-level2 {
+    position: absolute;
+    display: none;
+} */
