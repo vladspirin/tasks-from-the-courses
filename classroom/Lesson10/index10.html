@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Classroom. Lesson 10</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Classroom. Lesson 10</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <style>
+    #div1 {
+      width: 300px;
+      height: 300px;
+      background: red;
+    }
+    #div2 {
+      width: 100px;
+      height: 100px;
+      background: blue;
+    }
+  </style> -->
 </head>
 <body>
 
+  <!-- <div id="div1">
+    <div id="div2"></div>
+  </div> -->
 
-    <script src="js/script1.js"></script>
-    <!-- <script src="js/script2.js"></script> -->
-    <!-- <script src="js/script3.js"></script> -->
-    <!-- <script src="js/script4.js"></script> -->
+  <div id="gallery">
+    <ul id="min-imgs" class="min-imgs">
+      <li><img src="http://luxfon.com/large/201203/2608.jpg" class="img" alt="img"></li>
+      <li><img src="http://luxfon.com/large/201203/8886.jpg" class="img" alt="img"></li>
+      <li><img src="http://luxfon.com/large/201203/1341.jpg" class="img" alt="img"></li>
+    </ul>
+    <div class="container">
+      <img src="http://luxfon.com/large/201203/2608.jpg" alt="img" id="b-img">
+    </div>
+  </div>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <div id="tabs">
+    <span class="tab activeColor" data-tab-btn="tab1">tab1</span>
+    <span class="tab" data-tab-btn="tab2">tab2</span>
+
+    <div id="tab1" class="tab-context active">11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111</div>
+    <div id="tab2" class="tab-context">22222222 22222222 22222222 22222222 22222222 22222222 22222222 22222222 22222222 22222222</div>
+  </div>
+
+
+  <!-- <script src="js/script1.js"></script> -->
+  <script src="js/script2.js"></script>
+  <!-- <script src="js/script3.js"></script> -->
+  <!-- <script src="js/script4.js"></script> -->
 </body>
 
 </html>

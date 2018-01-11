@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+#gallery {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.min-imgs {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.min-imgs li {
+    width: 30%;
+    height: 150px;
+    overflow: hidden;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.tab-context {
+    display: none;
+}
+.tab {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.activeColor {
+    background-color: #88f;
+}
+.active {
+    display: block;
+    background-color: #88f;
+}
