@@ -1,8 +1,13 @@
 "use strict";
-var nav = document.getElementById('nav');
-nav.addEventListener('mouseover', function (e) {
-    var target = e.target;
+var tabs = document.getElementById('tabs');
+var activeTab = document.getElementsByClassName('tab')[0];
 
-    var targetParent = target.closest('.item-tabs');
-    console.log(targetParent);
+tabs.addEventListener('click', function (e) {
+    var target = e.target;
+    console.log(target);
+    if (target.classList.contains('tab')) {
+        document.getElementById(activeTab.dataset.tabBtn).classList.remove('active');
+        document.getElementById(target.dataset.tabBtn).classList.add('active');
+        activeTab = target;
+    }
 });
