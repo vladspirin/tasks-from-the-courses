@@ -10,27 +10,38 @@ ul {
 a {
   text-decoration: none;
 }
-  .tab-content {
-    padding: 0 20px;
-    display: none;
-  }
+
   .nav-tabs {
     display: flex;
-    border-bottom: 1px solid #dee4e4;
+    border-bottom: 1px solid #ddd;
   }
   .item-tabs {
     margin-right: 2px;
   }
-  .nav-tabs li>a {
+  .nav-tabs li a {
     display: inline-block;
     padding: 10px 30px;
-    cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #dee4e4;
-    border-bottom: none;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    color: #2385c6;
   }
+.tab-content {
+  padding: 0 20px;
+  display: none;
+}
+.passiveStyles {
+  border: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgb(245, 245, 245);
+}
+.activeStyles {
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-color: transparent;
+  cursor : default;
+  color: #333!important;
+}
+
 .active {
   display: block;
 }
