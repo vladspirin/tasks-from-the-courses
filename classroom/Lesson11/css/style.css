@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.slides1 {
+    position: relative;
+    margin: 200px 600px;
+}
+.frame {
+    position: absolute;
+    margin: 0 auto;
+    border: 10px solid green;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+    overflow: hidden; /* временно надо скрывать для понимания */
+}
+.sliders {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2000px;   /* побольше   */
+    z-index: 1;
+    margin-left: -280px;
+}
+.sliders li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 180px;
+    border: 2px dashed #000;
+    float: left;
+    overflow: hidden;
+    /* временно надо скрывать для понимания */
+}
+.button {
+  position: absolute;
+  top: 250px;  
+}
+.prev, .next {
+    display: inline-block;
+    margin: 10px;
+    background-color: #88f;
+    padding: 5px 20px;
+    cursor: pointer;
+}
