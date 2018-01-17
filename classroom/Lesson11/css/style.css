@@ -33,7 +33,7 @@ ul {
     align-items: center;
     width: 280px;
     height: 180px;
-    border: 2px dashed #000;
+    /* border: 2px dashed #000; */
     float: left;
     overflow: hidden;
     /* временно надо скрывать для понимания */
