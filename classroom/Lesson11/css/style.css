@@ -35,8 +35,7 @@ ul {
     height: 180px;
     /* border: 2px dashed #000; */
     float: left;
-    overflow: hidden;
-    /* временно надо скрывать для понимания */
+    overflow: hidden;    /* временно надо скрывать для понимания */
 }
 .button {
   position: absolute;
