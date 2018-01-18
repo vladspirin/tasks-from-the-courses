@@ -1,0 +1,19 @@
+body {
+background-color: #88f;
+}
+.wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+.slick-dots li button:before {
+  font-size: 16px;
+}
+.slick-prev:before, .slick-next:before  {
+  color: blue;
+}
+#text {
+
+}
+.text-section {
+  display: none;
+}
