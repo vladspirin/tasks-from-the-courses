@@ -2,7 +2,7 @@
 
 ### Домашнее задание  
 
-Скачать html шаблон (<http://psd-html- css.ru/shablony/html-shablony- saytov> или др.)  
+Скачать html шаблон (<http://psd-html-css.ru/shablony/html-shablony-saytov> или др.)  
 Выбрать и подключить любой плагин на Ваше усмотрение.  
 
 <https://www.jqueryscript.net/>  
