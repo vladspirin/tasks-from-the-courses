@@ -1,8 +1,8 @@
 $(document).ready(function () {
   
   $('.myTestSlider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true,

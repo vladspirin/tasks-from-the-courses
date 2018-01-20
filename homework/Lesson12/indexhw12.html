@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Homework. Lesson 12</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.min.css" rel="stylesheet" type="text/css" media="screen,projection">
+  <link href="vendors/slick/slick.css" rel="stylesheet" type="text/css"/>
+  <link href="vendors/slick/slick-theme.css" rel="stylesheet" type="text/css"/>
+  <link href="vendors/materialize/css/materialize.min.css" rel="stylesheet" type="text/css" media="screen,projection">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -24,25 +26,20 @@
       </div>
     </div>
   </nav>
-  <div class="container">
-    <div class="row"></div>
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"> 
-          <img src="https://img1.goodfon.ru/original/1600x1200/4/32/kreativ-musor-metall-oblomki.jpg">
-        </a>
-        <a class="carousel-item" href="#two!">
-          <img src="https://img2.goodfon.ru/original/1600x1200/e/67/les-ekologiya-derevya-priroda.jpg">
-        </a>
-        <a class="carousel-item" href="#three!">
-          <img src="https://img1.goodfon.ru/original/1600x1200/2/f4/lampochka-priroda-vetryaki.jpg">
-        </a>
-        <a class="carousel-item" href="#four!">
-          <img src="https://img2.goodfon.ru/original/1600x1200/6/e4/pole-priroda-vetryaki-trava.jpg">
-        </a>
-        <a class="carousel-item" href="#five!">
-          <img src="https://img3.goodfon.ru/original/1600x1200/7/38/zavod-fabrika-ekologiia-truby-dym.jpg">
-        </a>
+  <div class="container slider-top">
+    <div class="container">
+      <div class="row">
+        <div class="col s1"></div>
+        <div class="my-slider col s10">
+          <div><img class="img" src="img\garbage.jpg"></div>
+          <div><img class="img" src="img\industry-pollution-Hd-wallpaper.jpg"></div>
+          <div><img class="img" src="img\garbage1.jpg"></div>
+          <div><img class="img" src="img\trees.jpg"></div>
+          <div><img class="img" src="img\eu.jpg"></div>
+        </div>
+        <div class="col s1"></div>
       </div>
+    </div>
   </div>
   <div class="container">
     <div class="row">
@@ -107,7 +104,8 @@
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="vendors/slick/slick.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

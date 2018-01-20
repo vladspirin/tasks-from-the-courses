@@ -13,3 +13,13 @@ html {
     .brand-logo {
     font-size: 1.4em!important;
   }
+.slider-top {
+  margin-top: 10px;
+}
+.slider-sides {
+  margin: 0 60px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(112, 158, 177);
+}

@@ -10,6 +10,7 @@ background-color: #88f;
 }
 .slick-prev:before, .slick-next:before  {
   color: blue;
+  margin: 0 100px;
 }
 #text {
 
