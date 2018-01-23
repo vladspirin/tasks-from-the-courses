@@ -12,6 +12,13 @@
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
   <nav>
     <div class="nav-wrapper green lighten-2">
       <div class="container">
@@ -21,7 +28,7 @@
           <li><a href="#">О проекте</a></li>
           <li><a href="#">Блог</a></li>
           <li><a href="#">Законы</a></li>
-          <li><a href="#">Что? Куда? Зачем?</a></li>
+          <li><a class="dropdown-button" href="#" data-activates="dropdown1">Что? Куда? Зачем?<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
     </div>
@@ -43,30 +50,73 @@
   </div>
   <div class="container">
     <div class="row">
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      <div class="col s6 m5">
+        <div class="card-panel">
+          <span><h5>Что такое экологическая безопасность?</h5>
+          <br/>Одной из важнейших проблем современности является экологическая проблема. Экологическая проблема – это изменение природного
+          климата (среды), в результате деятельности человека, поэтому экологические проблемы – это проблемы антропогенного характера,
+          т.е. они возникают вследствие негативного влияния человека на природу. Так существуют экологические проблемы локального характера,
+          которые касаются определенно взятой местности, проблемы регионального характера, относится к конкретно взятому региону, и
+          проблемы глобального характера, они могут оказывать влияние на всю планету.</span>
+        </div>
+      </div>
     </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+  <!-- </div> -->
+    <div class="col s6 m5">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">filter_drama</i>Глобальная цель проекта</div>
+          <div class="collapsible-body">
+            <span>Чистый и комфортный мир для всех. Этот проект связан с защитой окружающей среды, в частности информирования населения о возможностях,
+            которые дает сортировка и переработка отходов.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>Глобальная цель проекта</div>
+          <div class="collapsible-body">
+            <span>Чистый и комфортный мир для всех. Этот проект связан с защитой окружающей среды, в частности информирования населения о возможностях,
+            которые дает сортировка и переработка отходов.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">whatshot</i>Глобальная цель проекта</div>
+          <div class="collapsible-body">
+            <span>Чистый и комфортный мир для всех. Этот проект связан с защитой окружающей среды, в частности информирования населения о возможностях,
+            которые дает сортировка и переработка отходов.</span>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
-    <div class="card-panel">
-      <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
-    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">Это стандартная карточка панели с голубым текстом.</span>
+      </div>
     </div>
   </div>
   <footer class="page-footer green lighten-2">
@@ -78,19 +128,19 @@
             и переработка отходов.</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Ссылки</h5>
+          <h5 class="white-text">Общественные организации</h5>
           <ul>
             <li>
-              <a class="grey-text text-lighten-3" href="#!">Ссылка 1</a>
+              <a class="grey-text text-lighten-3" target="_blank" href="http://www.un.org/ru/index.html">Организация Объединённых Наций</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="#!">Ссылка 2</a>
+              <a class="grey-text text-lighten-3" target="_blank" href="http://www.greenpeace.org/international/en/">Greenpeace</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="#!">Ссылка 3</a>
+              <a class="grey-text text-lighten-3" target="_blank" href="https://new.wwf.ru/">Всемирный фонд природы</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="#!">Ссылка 4</a>
+              <a class="grey-text text-lighten-3" target="_blank" href="http://www.thegef.org/">Глобальный экологический фонд</a>
             </li>
           </ul>
         </div>
