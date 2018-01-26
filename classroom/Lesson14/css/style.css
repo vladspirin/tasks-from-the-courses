@@ -1,0 +1,45 @@
+/* #block {
+  margin: 10px auto;
+  padding: 15px;
+  width: 500px;
+  height: 1500px;
+  background-color: #f55;
+  border: 10px solid #000;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 28px;
+}
+.header {
+  background-color: #ccc;
+  padding: 30px;
+  text-align: center;
+}
+#navbar {
+  background-color: #444;
+  overflow: hidden;
+  display: flex;
+}
+#navbar a {
+  display: block;
+  padding: 14px 16px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.container {
+  padding: 16px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.fixed + .empty {
+  height: 48px;
+}
