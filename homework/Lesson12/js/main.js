@@ -1,23 +1,27 @@
 $(document).ready(function () {
   $('.collapsible').collapsible();
-
-  $('.my-slider').slick({
-    // adaptiveHeight,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    dots: true
+  $('#fullpage').fullpage({
+    menu: '#menu',
+    fixedElements: '#header, .footer',
+    // slidesNavigation: true,
+    // slidesNavPosition: 'bottom',
+    sectionsColor: ['#fff', '#fff3e0'],
+    navigation: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['firstSlide', 'secondSlide']
+    // paddingTop: '3em'
   });
-
+  // $('.my-slider').slick({
+  //   // adaptiveHeight,
+  //   autoplay: true,
+  //   autoplaySpeed: 6000,
+  //   dots: true
+  // });
   $(".dropdown-button").dropdown({
-    inDuration: 300,
-    outDuration: 225,
-    constrainWidth: false, // Does not change width of dropdown to that of the activator
-    hover: true, // Activate on hover
-    gutter: 0, // Spacing from edge
-    belowOrigin: false, // Displays dropdown below the button
-    alignment: 'left', // Displays dropdown with edge aligned to the left of button
-    stopPropagation: false // Stops event propagation
+    hover: true,
+    belowOrigin: true,
+    gutter: 0,
+    stopPropagation: true
   });
-
 
 });
