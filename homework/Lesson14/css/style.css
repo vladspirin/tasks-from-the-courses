@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+}
+.blocks {
+  margin: 15px;
+  padding: 10px; 
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow : 1px 2px 2px #8080809d;
+}
+/* .mini-header {
+
+} */
