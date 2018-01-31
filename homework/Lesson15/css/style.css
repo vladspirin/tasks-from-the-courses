@@ -1,0 +1,20 @@
+#wrapper {
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 40em;
+}
+#container {
+  border: 0 1px 0 1px solid #5c5353;
+  border-radius: 3px;
+  box-shadow: 1px 0px 6px rgb(187, 180, 180);
+  padding: 10px;
+}
+.form-box {
+  padding: 30px;
+}
+.form-button {
+  padding: 5px 10px;
+  border: 1px solid #291e1e;
+  border-radius: 5px;
+  box-shadow: 1px 0px 6px rgb(187, 180, 180);
+}
