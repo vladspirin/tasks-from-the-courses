@@ -12,23 +12,23 @@
     <div id="container">
       <fieldset>
         <legend>Депозитный калькулятор</legend>
-        <form class="form-box" name="depForm" action="#">
-          <label for="money">Введите желаемую сумму депозита: </label><input type="number" name="money" id=""><br/><br/>
+        <form id="myform" class="form-box" name="depForm" action="#">
+          <label for="money">Введите желаемую сумму депозита: </label><input id="money" type="number" name="money" id=""><br/><br/>
           <label for="month">Введите срок вклада в месяцах: </label>
-            <select name="month">
+          <select id="month" name="month">
               <option value="month3">3</option>
               <option value="month6">6</option>
               <option value="month12">12</option>
             </select>
           <br/><br/>
-          <button  type="button" name="button">Рассчитать</button>
-          <br/><br/>
-          <label for="outputInfo"></label><input type="text" name="outputInfo" value="">
+          <button id="btn" type="button" name="button">Рассчитать</button>
         </form>
       </fieldset>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
   <script src="js/js1hw.js"></script>
+  <script src="js/form-validate.js"></script>
 </body>
 </html>
