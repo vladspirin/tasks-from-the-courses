@@ -1,0 +1,6 @@
+body {
+  background-color: red; }
+  body div {
+    background-color: blue;
+    color: #fff;
+    font-size: 50px; }

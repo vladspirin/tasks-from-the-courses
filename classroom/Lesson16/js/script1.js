@@ -39,16 +39,23 @@ $('.search').click(function() {
     //  console.log(results);
     $('.grid-item').each(function (index, el) {
       // console.log(index);
-      // console.log(el);
+      console.log(el);
 
       var r = results[index];
-      console.log(r);
+      // console.log(r);
       var webimg = r.webformatURL;// Смотреть в API
       $(el).find('img').attr("src", webimg);
+      $(el).find('img').attr("offsetHeight", r);
     });
   }
   // search();
 });
 
-
+function NYTimesAPI(paramsData) {
+  $.getJSON(url, function (data, textStatus) {
+      
+    }
+  );
+}
+NYTimesAPI();
 //"fddf'wewewewew'sdf,sd,fs"
